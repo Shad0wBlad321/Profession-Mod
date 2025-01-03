@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "SWG",
+    "name": "Survivor With A Gun",
+    "authors": [ "Some Dumbass" ],
+    "maintainers": [ "Some Dumbass" ],
+    "description": "Just a variant of survivor who wasnt so abysmally unprepared, perhaps i could add to this",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  }
+]

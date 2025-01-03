@@ -1,0 +1,21 @@
+[  
+	{
+	"type": "profession",
+	"id": "Cheap_Gun",
+	"name": { "male": "Average Dude", "female": "Average Dudette" },
+    "description": "Some would say that there's nothing particularly notable about you, but you do have a gun, hopefully thats enough to keep you alive out there.",
+    "points": 2,
+    "items": {
+      "both": {
+        "items": [ "jeans", "longshirt", "socks", "sneakers", "daypack", "water_clean", "smart_phone" ],
+		"entries": [
+			{ "item": "knife_hunting", "container-item": "sheath" },
+			{ "item": "glock_17", "ammo-item": "9mm", "container-item": "holster", "charges": 17 },
+			{ "item": "glock17_17", "ammo-item": "9mm", "charges": 17 }
+		]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
+	}
+]
