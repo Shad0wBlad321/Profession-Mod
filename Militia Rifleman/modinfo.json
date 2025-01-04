@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PM-MR",
+    "name": "PM-Militia Rifleman",
+    "authors": [ "Some Dumbass" ],
+    "maintainers": [ "Some Dumbass" ],
+    "description": "A civilian militia rifleman, lower tier than a proper soldier. dont use with the all in one variant",
+    "category": "rebalance",
+    "dependencies": [ "bn" ]
+  }
+]
