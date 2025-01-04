@@ -1,4 +1,10 @@
 [  
+	 {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "militia_mags_rifleman",
+    "entries": [ { "item": "stanag30", "ammo-item": "556", "charges": 30 }, { "item": "stanag30", "ammo-item": "556", "charges": 30 } ]
+	},
 	{
 	"type": "profession",
 	"id": "Cheap_Gun",
@@ -17,5 +23,92 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
-	}
+	},
+  {
+    "type": "profession",
+    "id": "mil_auto_rifleman",
+    "name": "Civilain Militia Rifleman",
+    "description": "You fancied yourself a soldier before the cataclysm, you joined up with a local militia and got some basic training and gear as a result, people thought you were stupid then, but now you are one of the most prepared people left.",
+    "points": 4,
+    "skills": [
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 1, "name": "stabbing" },
+      { "level": 1, "name": "dodge" }
+    ],
+	"items": {
+		"both": {
+			"items": [
+		"pants_cargo", "tshirt", "smart_phone", "jacket_flannel", "tac_helmet", "gloves_liner", "gloves_tactical", "socks", "boots_combat", "wristwatch", "canteen", "kevlar", "daypack"
+        ],
+        "entries": [
+			{ "item": "tacvest", "contents-group": "militia_mags_rifleman" },
+			{ "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+			{ "item": "multitool", "container-item": "webbing_belt" },
+			{ "item": "knife_combat", "container-item": "sheath" },
+			{ "item": "ar15", "ammo-item": "556", "charges": 30, "contents-item": [ "shoulder_strap", "red_dot_sight" ] },
+			{ "item": "glock_22", "ammo-item": "40sw", "charges": 15, "container-item": "holster" },
+			{ "item": "glock40mag", "ammo-item": "40sw", "charges": 15 },
+			{ "item": "glock40mag", "ammo-item": "40sw", "charges": 15 }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "boy_shorts", "sports_bra" ]
+    }
+  },
+   {
+    "type": "profession",
+    "id": "bionic_prepper",
+    "name": "Bionic Prepper",
+    "description": "You knew the end was coming.  You augmented yourself with some basic bionics and got additional survival training.  Now the end has come, and it is time to see if your efforts have paid off.",
+    "points": 6,
+    "CBMs": [
+      "bio_metabolics",
+      "bio_power_storage_mkII",
+      "bio_tools",
+      "bio_flashlight",
+      "bio_lighter",
+      "bio_evap",
+      "bio_climate",
+      "bio_taste_blocker"
+    ],
+    "skills": [
+      { "level": 4, "name": "survival" },
+      { "level": 3, "name": "fabrication" },
+      { "level": 3, "name": "cooking" },
+      { "level": 2, "name": "firstaid" },
+      { "level": 2, "name": "gun" },
+      { "level": 2, "name": "rifle" },
+      { "level": 2, "name": "melee" },
+      { "level": 2, "name": "cutting" },
+      { "level": 1, "name": "bashing" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "hat_boonie",
+          "tshirt",
+          "gloves_fingerless",
+          "pants_cargo",
+          "socks",
+          "boots",
+          "trenchcoat",
+          "knit_scarf",
+          "backpack",
+          "canteen",
+          "smart_phone",
+          "wristwatch",
+          "binoculars"
+        ],
+        "entries": [
+          { "item": "crossbow", "ammo-item": "bolt_steel", "charges": 1, "contents-item": "shoulder_strap" },
+          { "item": "quiver", "contents-group": "quiver_bionic_prepper" },
+          { "item": "machete", "container-item": "scabbard" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  }
 ]
