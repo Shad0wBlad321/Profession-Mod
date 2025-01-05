@@ -6,7 +6,7 @@
     "authors": [ "Some Dumbass" ],
     "maintainers": [ "Some Dumbass" ],
     "description": "A civilian militia rifleman, lower tier than a proper soldier. dont use with the all in one variant",
-    "category": "rebalance",
+    "category": "misc_additions",
     "dependencies": [ "bn" ]
   }
 ]

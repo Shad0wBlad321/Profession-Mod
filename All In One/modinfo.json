@@ -1,12 +1,12 @@
 [
   {
     "type": "MOD_INFO",
-    "id": "SWG",
-    "name": "Reworked (sorta) Professions Mod",
+    "id": "PM-AIO",
+    "name": "Bob's Professions Mod",
     "authors": [ "Some Dumbass" ],
     "maintainers": [ "Some Dumbass" ],
     "description": "The all in one module for my profession mod, adding, replacing, and rebalancing several professions to give the player more variety in their starts without having to pick a challenge or joke start. Dont use this alongside the standalone ones",
-    "category": "rebalance",
+    "category": "misc_additions",
     "dependencies": [ "bn" ]
   }
 ]

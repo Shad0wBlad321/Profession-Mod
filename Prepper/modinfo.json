@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PM-P",
+    "name": "PM-Preppers",
+    "authors": [ "Some Dumbass" ],
+    "maintainers": [ "Some Dumbass" ],
+    "description": "Rebalance bionic prepper and add a normal one, dont use alongside all in one",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

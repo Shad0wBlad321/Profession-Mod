@@ -2,11 +2,11 @@
   {
     "type": "MOD_INFO",
     "id": "SWG-SA",
-    "name": "Survivor With A Gun",
+    "name": "PM-Survivor With A Gun",
     "authors": [ "Some Dumbass" ],
     "maintainers": [ "Some Dumbass" ],
     "description": "Just a variant of survivor who wasnt so abysmally unprepared, got himself a strap before evac. Dont use with the all in one variant.",
-    "category": "rebalance",
+    "category": "misc_additions",
     "dependencies": [ "bn" ]
   }
 ]
