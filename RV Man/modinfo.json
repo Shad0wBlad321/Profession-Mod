@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "PM-RV",
+    "name": "PM-RV",
+    "authors": [ "Some Dumbass" ],
+    "maintainers": [ "Some Dumbass" ],
+    "description": "Replace Shotgun Hunter With RV Owner",
+    "category": "misc_additions",
+    "dependencies": [ "bn" ]
+  }
+]

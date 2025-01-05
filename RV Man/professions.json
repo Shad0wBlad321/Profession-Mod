@@ -1,0 +1,34 @@
+[  
+
+  {
+    "type": "profession",
+    "id": "shotgun_hunter",
+    "name": "RV Survivor",
+    "description": "Ever since you were young you wanted to live the RV life, when you finally bought one you moved in with barely anything save for your trusty pistol and knife. Now that the end is here you really wish you brought a bit more ammo.",
+    "points": 4,
+    "skills": [ { "level": 2, "name": "driving" }, { "level": 2, "name": "mechanics" } ],
+    "vehicle": "rv",
+    "items": {
+      "both": {
+        "items": [
+          "tshirt",
+          "socks",
+          "smart_phone",
+          "boots_steel",
+          "pants_cargo",
+          "jacket_flannel",
+          "wristwatch"
+        ],
+        "entries": [
+          { "item": "hi_power_9mm", "ammo-item": "9mm", "charges": 13, "container-item": "holster" },
+          { "item": "sheath", "contents-item": "knife_hunting" },
+          { "item": "bhp9mag_13rd", "ammo-item": "9mm", "charges": 13},
+          { "item": "bhp9mag_13rd", "ammo-item": "9mm", "charges": 13}
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
+  }
+  
+]
